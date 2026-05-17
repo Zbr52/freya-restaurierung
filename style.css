@@ -332,7 +332,7 @@ p {
 
 /* 3 Bilder */
 .bild-reihe.drei img {
-    width: calc(33.333% - 14px);
+    width: calc((100% - 40px) / 3);
     height: auto;
     display: block;
 }
