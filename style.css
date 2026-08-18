@@ -421,3 +421,38 @@ p {
 .to-top:hover {
     color: rgba(0, 0, 0, 0.85);
 }
+
+/* =========================
+   PROJEKT – IN BEARBEITUNG
+========================= */
+
+.bild-container {
+    position: relative;
+    width: 320px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.bild-container .projekt-bild {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Schrift mittig auf dem Bild */
+.in-bearbeitung {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
